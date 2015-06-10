@@ -9,3 +9,8 @@ meteor-platform
 #insecure
 udondan:jszip
 iron:router
+http
+#meteorhacks:npm
+#npm-container
+#lepozepo:cloudinary
+#risul:cloudinary
