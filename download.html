@@ -1,0 +1,18 @@
+<head>
+  <title>download</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <h1>{{#linkTo route='zip1' class='navbar-brand'}}
+          zip1
+        {{/linkTo}}</h1>
+    <h1>{{#linkTo route='zip2' class='navbar-brand'}}
+          zip2
+        {{/linkTo}}</h1>      
+</template>
