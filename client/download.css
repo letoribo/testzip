@@ -1,7 +1,8 @@
-/* CSS declarations go here */
 @import url('//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css');
 
 body{
-    padding: 20px;
+  padding: 20px;
 }
-#down{margin: 5%;}
+button{ 
+  margin: 125px;
+}

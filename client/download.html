@@ -1,0 +1,23 @@
+<head>
+  <title>download</title>
+</head>
+
+<body>
+  <h1>Test JSZip</h1>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <h1>{{#linkTo route='zip1' class='navbar-brand'}}
+    zip1
+    {{/linkTo}}</h1>
+  <h1>{{#linkTo route='zip2' class='navbar-brand'}}
+    zip2
+    {{/linkTo}}</h1> 
+  <br>          
+  <button class="btn btn-default btn-sm">call</button> 
+  <div class="output">
+     <img src="{{image}}" />
+  </div>
+</template>
+
